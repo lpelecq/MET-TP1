@@ -77,7 +77,7 @@ var Succ = /** @class */ (function () {
     Succ.prototype.toString = function () {
         return "" + this.val().toString();
     };
-    Succ.FAB = new Succ(new Zero_1.Zero(0));
+    Succ.FAB = new NatParInt_1.NatParInt(0);
     return Succ;
 }());
 exports.Succ = Succ;

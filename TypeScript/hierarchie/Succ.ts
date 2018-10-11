@@ -6,7 +6,7 @@ import { Zero } from "./Zero";
 export class Succ implements Nat{
     
     private _predecesseur:Nat;
-    public static FAB:FabriqueNaturels<Nat> = new Succ(new Zero(0));
+    public static FAB:FabriqueNaturels<Nat> = new NatParInt(0);
     
     constructor(predecesseur:Nat){
         this._predecesseur = predecesseur;

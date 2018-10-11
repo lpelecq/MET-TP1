@@ -7,7 +7,7 @@ import { NatParInt } from "./NatParInt";
 
 export class SuccRec extends Succ{
 
-    public static FAB:FabriqueNaturels<Nat> = new SuccRec(new ZeroRec(0));
+    public static FAB:FabriqueNaturels<Nat> = new NatParInt(0);
 
     public constructor(predecesseur : Nat) {
 		super(predecesseur);

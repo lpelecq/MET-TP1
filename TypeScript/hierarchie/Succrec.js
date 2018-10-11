@@ -98,7 +98,7 @@ var SuccRec = /** @class */ (function (_super) {
             return this.creerSuccesseur(NatParInt_1.NatParInt.FAB.creerNatAvecValeur(val - 1));
         }
     };
-    SuccRec.FAB = new SuccRec(new ZeroRec_1.ZeroRec(0));
+    SuccRec.FAB = new NatParInt_1.NatParInt(0);
     return SuccRec;
 }(Succ_1.Succ));
 exports.SuccRec = SuccRec;
